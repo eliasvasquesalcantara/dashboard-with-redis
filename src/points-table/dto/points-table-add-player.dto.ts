@@ -1,6 +1,6 @@
 import { IsString } from 'class-validator';
 
-export class DashboardAddPlayer {
+export class PointsTableAddPlayerDTO {
   @IsString()
   playerName: string;
 }

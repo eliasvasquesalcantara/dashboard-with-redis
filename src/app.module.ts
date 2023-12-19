@@ -1,9 +1,9 @@
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import { DashboardModule } from './dashboard/dashboard.module';
+import { PointsTableModule } from './points-table/points-table.module';
 
 @Module({
-  imports: [ConfigModule.forRoot(), DashboardModule],
+  imports: [ConfigModule.forRoot(), PointsTableModule],
   controllers: [],
   providers: [],
 })

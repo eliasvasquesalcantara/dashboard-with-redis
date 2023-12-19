@@ -18,7 +18,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "redis:up": "docker run --name redis -d -p 5000:6379 redis"
+    "redis:up": "docker run --name redis -d -p 5000:6379 redis",
+    "redis:start": "docker start redis"
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
