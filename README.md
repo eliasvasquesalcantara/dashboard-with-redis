@@ -55,8 +55,6 @@ Use the endpoints:
  
 #### PATCH /points-table/:playerName?points=10
 points is optional, default is 5
-```bash
-``` 
 
  <a id="technologies-used"></a>
 ## Technologies used
